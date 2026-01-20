@@ -13,4 +13,4 @@ RUN pip install setuptools
 
 COPY nginx/nginx.conf /etc/nginx/conf.d/
 
-COPY . /app/
+COPY mysite /app/
